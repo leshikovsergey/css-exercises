@@ -1,1 +1,26 @@
-/* Add CSS Styling */
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.odd {
+  background-color: rgb(240, 128, 128);
+  font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.cooler {
+  font-size: 24px;
+}
+
+#even {
+  color: hsl(240, 100%, 50%);
+  font-size: 36px;
+}
+
+#another {
+  background-color: #90ee90;
+  font-weight: bold;
+}
